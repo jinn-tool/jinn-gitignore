@@ -37,3 +37,8 @@ module.exports = function (jinn, cb) {
 
   copy()
 }
+
+module.exports.command = {
+  flags: '-G, --gitignore',
+  description: 'Adds a gitignore file'
+}
